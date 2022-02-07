@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>¡Más que monedas!</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='portfolio.js'></script>
+  <script src='main.js'></script>
+  <script src='quotes.js'></script>
+</head>
+<body>
+  <h2 style="text-align:center;">
+  ¡Más que monedas!
+  </h2>
+  <p align="center">
+  <button type="button" onclick="newQuote()" style="background-color:black;
+    color:white;margin-left:auto;margin-right:auto;display:block;margin-top:0%;
+      margin-bottom:0%"> Saber </button>
+  </p>
+  <div id="quoteDisplay", style="text-align:center;margin-left:auto;
+    margin-right:auto;display:block;margin-top:0%;margin-bottom:2%">
+      <!-- Here come the quotes -->
+  </div>
+</body>
+<body onload="main()">
+  <div id="portfolio"></div>
+  <div id="footer">
+    Última actualización: <span id="date"></span>
+    <button onclick="javascript:location.reload()">Refrescar</button>
+  </div>
+</body>
+</html>
+<script>
