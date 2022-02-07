@@ -41,16 +41,20 @@ To get all available coin symbols for your portfolio, go to [this API response](
 
 #### Requerimientos / Requirements
 
-* Un navegador moderno
-*  Un editor de texto
+* Un navegador moderno.
+* Un editor de texto.
 
-* A modern browser}
-* A text editor
+--------------------
+
+* A modern browser.
+* A text editor.
 
 #### Uso / Usage
 
 * Edita el archivo 'portfolio.js' con las monedas que tengas, y el número de unidades.
 * Abre 'portfolio.html' en el navegador.
+
+--------------------
 
 * Edit the file "portfolio.js" with the coins you have, and the number of units.
 * Open "portfolio.html in the browser.
