@@ -1,6 +1,6 @@
 let quotes =
 [
-  'Amores son acciones y no buenas razones. -La Abuela',
+'Amores son acciones y no buenas razones. -La Abuela',
 'De lejos se ven mejor los toros que en la barrera. -Jose Vicente "Chente" Berardinelli',
 'Es mejor llegar a tiempo que ser invitado. -El Abuelo',
 'Mientras más se vive más se ve. -El Abuelo',
@@ -66,6 +66,10 @@ let quotes =
 'A quien dios no le manda hijos, el diablo le manda sobrinos. -La Abuela',
 'Luego de frito el huevo se sabe cuanto aceite quedó. -La Abuela',
 'Arrieros somos y por el camino andamos. -La Abuela',
+'Cómo tiene su figura tiene su proceder. -La Abuela',
+'Si está en la barriga sale. -Valentin Uriana en Nueva Esperanza',
+'¿Será mejor dejar huellas y no pangones? -Pregunto',
+'Hay quien se las tira de loco para bailar la fiesta encuero. -La Madre',
 'Que tu mano izquierda no sepa lo que hace tu mano derecha. -El Abuelo'
 ];
 
