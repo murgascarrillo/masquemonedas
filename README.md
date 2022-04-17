@@ -1,6 +1,6 @@
 # Más que monedas
 
-Este repo contiene 1 base de código que usa el [API de Coingecko](https://www.coingecko.com/en/api) para recuperar el valor actual de tus monedas. Está destinado a propósitos educativos solamente - **esto no es bajo ninguna circunstancia un producto completo/testeado**. 
+Este repo contiene 1 base de código que usa el [API de Coingecko](https://www.coingecko.com/en/api) para recuperar el valor actual de tus monedas. Está destinado a propósitos educativos solamente - **esto no es bajo ninguna circunstancia un producto completo/testeado**.
 
 This repo contains 1 code base that use the [CoinGecko API](https://www.coingecko.com/en/api) to retrieve the current values of your coins. It's meant for education purposes only - **these are by no means a complete/tested product**.
 
@@ -59,6 +59,11 @@ To get all available coin symbols for your portfolio, go to [this API response](
 * Edit the file "portfolio.js" with the coins you have, and the number of units.
 * Open "portfolio.html in the browser.
 
+
+## Agradecimientos / Credits
+
+* SCaydi, for the chest image.
+
 ## Licencia / License
 
 La fuente tiene licencia MIT. Eres libre de usarlo, cambiarlo, y hacerlo que quieras con esto 😀.
@@ -76,3 +81,5 @@ If you feel like this code is educational, entertaining, or useful to you in any
 If you are not sure if the currency you may be wanting to tip me can go thru that short address, reach out to me on Twitter or reddit: elperfilbajo
 
 Plus, if you want to drop some of that into the original code maker's pocket, send it at **[guy.wantsome.eth](https://etherscan.io/address/guy.wantsome.eth)**.
+
+

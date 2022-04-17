@@ -1,4 +1,5 @@
-let quotes =
+let
+quotes =
 [
 'Amores son acciones y no buenas razones. -La Abuela',
 'De lejos se ven mejor los toros que en la barrera. -Jose Vicente "Chente" Berardinelli',
@@ -70,11 +71,19 @@ let quotes =
 'Si está en la barriga sale. -Valentin Uriana en Nueva Esperanza',
 '¿Será mejor dejar huellas y no pangones? -Pregunto',
 'Hay quien se las tira de loco para bailar la fiesta encuero. -La Madre',
-'Que tu mano izquierda no sepa lo que hace tu mano derecha. -El Abuelo'
+'Que tu mano izquierda no sepa lo que hace tu mano derecha. -El Abuelo',
+'Algunas cosas en la vida nunca pueden ser apreciadas o entendidas completamente siendo virgen. -El paseador aleatorio, Burton Malkiel',
+'No se puede disponer del trabajador como si fuese una máquina o una mercancía, ya que él echa como las plantas sus propias raíces. (sobre traslados arbitrarios).',
+'A trabajo igual, salario igual. (sobre igualdad salarial)',
+'El reto es que nuestros hijos hereden nuestras esperanzas, no nuestros horrores. (sobre postconflicto)',
+'A traición y sobre seguro. (sobre actuar con alevosía)',
+'Sin tuerto y a derecho, nuestra casa hasta el techo. (sobre actuar con corrección)',
+'De la abundancia del corazón habla la boca. (sobre cualquier cosa)',
+'La verdadera tolerancia se funda en la guarda de lo propio sin el denuesto de lo ajeno. (sobre la tolerancia)',
+'La confianza es la base de nuestra convivencia. (sobre asuntos que merecen confianza mutua)',
 ];
-
 
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
-}
+};

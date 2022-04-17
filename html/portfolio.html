@@ -2,8 +2,7 @@
 <html>
 <head>
   <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>¡Más que monedas!</title>
+  <title> Más que monedas</title>
   <link rel="icon" href="favicon.png" type="image/x-icon"/>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -13,24 +12,27 @@
   <script src='quotes.js'></script>
 </head>
 <body>
-  <h2 style="text-align:center;">
+  <h2 style="font-family:Helvetica;text-align:center;">
   ¡Más que monedas!
   </h2>
+    <img src="../media/chest.png" alt="chest" style=margin-left:auto;margin-right:auto;display:block;>
   <p align="center">
   <button type="button" onclick="newQuote()" style="background-color:black;
-    color:white;margin-left:auto;margin-right:auto;display:block;margin-top:0%;
+    color:white;font-family:Helvetica;margin-left:auto;margin-right:auto;display:block;margin-top:0%;
       margin-bottom:0%"> Saber </button>
   </p>
-  <div id="quoteDisplay", style="text-align:center;margin-left:auto;
+  <div id="quoteDisplay", style="text-align:center;font-family:Helvetica;margin-left:auto;
     margin-right:auto;display:block;margin-top:0%;margin-bottom:2%">
       <!-- Here come the quotes -->
   </div>
+</div>
 </body>
 <body onload="main()">
   <div id="portfolio"></div>
   <div id="footer">
     Última actualización: <span id="date"></span>
-    <button onclick="javascript:location.reload()">Refrescar</button>
+    <button onclick="javascript:location.reload()">Refrescar</button> <br>
+    <p> Codice est &#x1F3A8;</p>
   </div>
 </body>
 </html>
